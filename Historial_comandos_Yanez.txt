@@ -1,0 +1,146 @@
+ssh-keygen
+pwd
+ls -la
+cd .ssh/
+cat id_rsa.pub
+cd
+git --version
+git clone git@github.com:Julimic/TP_AySO.git
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status
+git add README
+git status
+git commit -m "comentario"
+git commit -m "Primer archivo"
+git config --global user.email "yanezjulimic@gmail.com"
+git config --global user.name "Julimic"
+git commit -m "Primer archivo"
+git push origin main
+git push -u origin main
+cd
+cd repogit/
+git clone git@github.com:Julimic/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls
+cat datos_url.txt 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep -m 1 "model name" /proc/cpuinfo >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git status
+git push
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<FIN>> README.md
+Alumno: Julieta Yanez
+Division: 117
+Turno: Manana
+FIN
+
+cat README.md
+git add README.md datos_usuarios.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cd home/
+cd /home
+mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+
+sudo mkdir -p m
+tree materia1
+apt install tree
+tree --version
+apt install tree
+sudo apt install tree
+tree materia1
+tree --version
+sudo apt install tree
+cat materia1
+tree materia1
+tree .
+ls -R
+sudo apt update
+tree --version
+sudo apt install tree
+tree materia1
+tree materia1 materia2
+mkdir -p materia1/uni{1..3} materia2/uni{1..3} > script_dir.sh
+sudo mkdir -p materia1/uni{1..3} materia2/uni{1..3} > script_dir.sh
+pwd
+ls
+cd /materia1
+cd TP_AySO/
+ls
+cd
+cd repogit/
+s
+ls
+cd
+mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+ls
+tree materia1 materia2
+mkdir -p materia1/uni{1..3} materia2/uni{1..3} > script_dir.sh
+ls
+cat script_dir.sh 
+tree materia1 materia2
+chmod 555 script_dir.sh
+cat script_dir.sh 
+ls -l
+git add .
+cd TP_AySO/
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+git pull origin main --rebase
+git add .
+git rebase --continue
+git push origin main
+cd
+rm -r materia1 materia2
+ls
+rm -r script_dir.sh 
+ls
+rm script_dir.sh 
+ls
+ls -l script_dir.sh 
+sudo rm script_dir.sh 
+ls
+cd TP_AySO/
+mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+ls
+mkdir -p materia1/uni{1..3} materia2/uni{1..3} > script_dir.sh
+ls
+chmod 555 script_dir.sh
+cat script_dir.sh 
+ls -l
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cd
+mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+ls
+cd TP_AySO/
+rm r- materia1 materia2
+rm -r materia1 materia2
+ls
+cd
+ls
+tree materia1 materia2
+cd TP_AySO/
+history -a
